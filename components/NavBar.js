@@ -7,7 +7,7 @@ const NavBar = () => {
         <main>
             <div className="fixed top-0 h-28 w-screen 
                             flex justify-center items-center grid grid-cols-3
-                            text-zinc-50 border-b shadow-md">
+                            text-zinc-50 border-b shadow-md bg-white">
                 <div>
                     <Image src={logo} alt="Company Logo" width={180} height={160} />
                     
