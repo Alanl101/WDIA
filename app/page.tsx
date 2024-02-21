@@ -1,30 +1,42 @@
 import Image from "next/image";
-import pic from "../public/wedoitall.jpg"
+import pic from "../public/wedoitall.jpg";
+import contact from "../public/WedoitallContact.jpg";
+import headshot from "../public/headshot1.png";
 import NavBar from '../components/NavBar.js';
 
 export default function Home() {
   return (
-    <main className="min-h-screen text-center sm:text-left">
-      <div id="svg-img" className="xl:h-screen lg:h-full md:h-full sm:h-max min-h-screen flex justify-items-center">
+    <main className="min-h-screen text-center">
+
+      <title>We do it all</title>
+
+      <div id="svg-img" className="xl:h-screen lg:h-full md:h-full sm:h-max min-h-screen justify-items-center">
 
         <div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 my-32 mx-6 h-screen-64'>
 
-          <div className='flex w-full mt-12 pr-10 h-32 items-center justify-center'>
+          <div className='flex w-full mt-12 pr-10 items-center justify-center'>
             <h1 className="text-5xl text-center text-secondary font-bold"> All Your Construction Needs In One Place </h1>
           </div>
 
-          <div className="align-center">
-            <Image src={pic} alt="Company Logo" width={780} height={680} />
+          <div className="items-center justify-center mt-12">
+            <Image src={pic} alt="Company Logo" width={780} height={780} unoptimized={true} />
           </div>
-          {/*<div className='flex w-full h-64 max-w-7xl justify-self-center items-center justify-center border-b-4 border-zinc-200'>
-            <p className="text-xl text-secondary font-semibold text-justify mb-8 mt-32">
-              Our website is designed to help individuals build a powerful and effective portfolio that will increase their chances of getting hired. In today&apos;s competitive job market, it&apos;s essential to have a portfolio that stands out from the rest. Our platform provides users with the necessary tools and resources to create a portfolio that showcases their unique skills and accomplishments. With our intuitive and user-friendly interface, creating a portfolio has never been easier. 
-            </p>
-          </div>
-          */}          
+
         </div>
 
-        
+        <div className="flex flex-col items-center justify-center mt-4 border border-grey-500 max-w-xs p-4 rounded mx-auto my-auto">
+          <Image src={headshot} alt="headshot" width={200} height={200} unoptimized={true} />          
+          <div className="font-bold text-green">Need help? Contact us at <p className="text-[#ea580c] font-bold">(863)-205-4771</p></div>
+        </div>
+
+
+
+        <div className="items-center justify-center mt-4">
+          <div className="flex items-center justify-center rounded-md p-2">
+            <Image src={contact} alt="Company contact" width={780} height={780} unoptimized={true} />
+          </div>
+        </div>
+
       </div>
       <NavBar />
     </main>

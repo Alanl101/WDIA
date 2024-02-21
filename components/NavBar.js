@@ -17,10 +17,11 @@ const NavBar = () => {
                     <h1 className=' text-xl text-black font-semibold'>WE DO IT ALL</h1>
                 </div>
 
-                <div className='relative flex text-center justify-end h-16 mx-8 tracking-[.20em] text-black hover:font-semibold hover:text-orange-400 '>
+                <Link href="/login" className='relative flex text-center justify-end h-16 mx-8 tracking-[.20em] text-black hover:font-semibold hover:text-orange-400 '>
                     <button>Login</button>
-                </div>
+                </Link>
                 
+
             </div>
         </main>
     );
