@@ -8,8 +8,6 @@ import productData from '../components/productData';
 
 
 export default function Home() {
-  const productImageUrl = "https://cdn4.volusion.store/cazgk-lbade/v/vspfiles/photos/PSV-RL-9601-2.gif?v-cache=1702285406";
-
 
   return (
     <main className="min-h-screen text-center">
@@ -30,7 +28,7 @@ export default function Home() {
 
         </div>
 
-        <div>
+        <div className="grid sm:grid-cols-1">
           {productData.map((product, index) => (
             <ProductCard key={index} image={product.image} title={product.title} description={product.description} />
           ))}
