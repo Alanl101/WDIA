@@ -30,7 +30,7 @@ export default function Home() {
         </div>
 
         <Link href="/shop">
-          <button className="w-5/6 h-12 bg-orange-500 border mx-5 font-bold text-xl text-white rounded-lg hover:bg-orange-600 ">SHOP SAFETY EQUIPMENT AND TOOLS</button>
+          <button className="w-5/6 h-12 bg-orange-500 border mx-5 font-bold text-xl text-white rounded-lg hover:bg-orange-600 ">SHOP EQUIPMENT</button>
         </Link>
 
 
