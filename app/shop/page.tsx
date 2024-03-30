@@ -13,25 +13,15 @@ function Shop() {
           <title>We do it all</title>
     
           <div id="svg-img" className="xl:h-screen lg:h-full md:h-full sm:h-max min-h-screen justify-items-center">
-    
-            <div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 my-32 mx-6 h-screen-64'>
-    
-              <div className='flex w-full mt-12 items-center justify-center sm:mx-auto md:mx-auto'>
-                <h1 className="text-5xl text-center text-secondary font-bold"> All Your Construction Needs In One Place </h1>
+              <div className='grid grid-cols-1 my-32 mx-6 h-screen-64'>
+                <h1 className="mt-12 text-xl font-bold">SHOP</h1>
               </div>
-    
-            </div>
-    
-            <div>
-            </div>
-    
-            <div className="grid sm:grid-cols-1">
-              {productData.map((product, index) => (
-                <ProductCard key={index} image={product.image} title={product.title} description={product.description} />
-              ))}
-            </div>
-    
-    
+      
+              <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                {productData.map((product, index) => (
+                  <ProductCard key={index} image={product.image} title={product.title} />
+                ))}
+              </div>    
     
             
           </div>
