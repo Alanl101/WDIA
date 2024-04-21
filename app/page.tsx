@@ -4,7 +4,7 @@ import contact from "../public/WedoitallContact.jpg";
 import headshot from "../public/headshot1.png";
 import NavBar from '../components/NavBar.js';
 import Link from 'next/link';
-import scaffoldpic1 from '../public/Scaffoldpic1.jpg';
+import scaffoldpic1 from '../public/scaffoldpic1.jpg';
 import scaffoldpic2 from '../public/scaffoldpic2.jpg';
 import scaffoldpic3 from '../public/scaffoldpic3.jpg';
 
