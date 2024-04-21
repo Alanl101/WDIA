@@ -5,7 +5,7 @@ import headshot from "../public/headshot1.png";
 import NavBar from '../components/NavBar.js';
 import Link from 'next/link';
 import scaffold from "../public/WDIAscaffold.jpg";
-
+import scaffoldtwo from "../public/WDIAscaffold2.jpg";
 
 
 
@@ -25,7 +25,7 @@ export default function Home() {
           </div>
 
           <div className="items-center justify-center mt-12">
-            <Image src={scaffold} alt="Company Logo" width={1000} height={780} unoptimized={true} />
+            <Image src={scaffoldtwo} alt="Company Logo" width={1000} height={780} unoptimized={true} />
           </div>
 
         </div>
