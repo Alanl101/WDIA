@@ -4,9 +4,7 @@ import contact from "../public/WedoitallContact.jpg";
 import headshot from "../public/headshot1.png";
 import NavBar from '../components/NavBar.js';
 import Link from 'next/link';
-import scaffoldpic1 from '../public/scaffoldpic1.jpg';
-import scaffoldpic2 from '../public/scaffoldpic2.jpg';
-import scaffoldpic3 from '../public/scaffoldpic3.jpg';
+
 
 
 export default function Home() {
@@ -41,9 +39,6 @@ export default function Home() {
           <h1 className="mt-12 text-xl font-bold">Building Excellence for Over 25 Years</h1>
           <p>"We Do It All," a distinguished over 25 years of unwavering commitment to construction excellence. Our rich legacy in the construction sector speaks to our steadfast dedication to safety, innovation, and customer satisfaction.</p>
           
-          <div className="flex justify-center mt-4">
-            <Image src={scaffoldpic1} alt="scaffoldpic1" width={600} height={600} unoptimized={true} />          
-          </div>
           
           <h1 className="mt-12 text-xl font-bold">Why Choose We Do It All?</h1>
 
@@ -52,9 +47,7 @@ export default function Home() {
           <h1 className="mt-12 text-xl font-bold">Our Commitment to You:</h1>
 
           <p>At "We Do It All," we understand the importance of putting our clients first. Our personalized, reliable, and on-time services are designed to simplify your construction journey, making it not only safe but also stress-free. With a focus on precision and quality, we elevate your projects to new levels of success.</p>
-          <div className="flex justify-center mt-4">
-            <Image src={scaffoldpic2} alt="scaffoldpic2" width={600} height={600} unoptimized={true} />          
-          </div>
+
 
           <h1 className="mt-12 text-xl font-bold">We Do It All Scaffolding Services Include:</h1>
           <ul className="list-disc list-outside ms-8 text-left mx-auto max-w-2xl">
@@ -69,10 +62,7 @@ export default function Home() {
             <li>Sidewalk Canopies: Blending safety with aesthetic appeal.</li>
           </ul> 
           
-          <div className="flex justify-center mt-4">
-            <Image src={scaffoldpic3} alt="scaffoldpic3" width={500} height={500} unoptimized={true} />          
-          </div>
-
+        
           <h1 className="mt-12 text-xl">Choose "We Do It All" for a scaffolding partner that goes beyond industry standards, offering you a solid foundation for success in every construction endeavor. With "We Do It All," your projects are not just built; they're elevated to perfection.</h1>
         </div>
 
