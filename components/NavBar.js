@@ -32,7 +32,9 @@ const NavBar = () => {
                     
                 </div>
                 <div>
-                    <h1 className=' text-xl text-black font-semibold'>WE DO IT ALL</h1>
+                    <h1 className='grid text-xl text-black font-semibold'>
+                        <span>(813) 808-1765</span>                
+                    </h1>
                 </div>
                 {/* If user is signed in, show Logout button */}
                 {isSignedIn && (

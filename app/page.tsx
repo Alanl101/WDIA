@@ -6,6 +6,8 @@ import NavBar from '../components/NavBar.js';
 import Link from 'next/link';
 import scaffold from "../public/WDIAscaffold.jpg";
 import scaffoldtwo from "../public/WDIAscaffold2.jpg";
+import facebook from '../public/facebook-logo.jpg'; // Import the Facebook icon image
+
 
 
 
@@ -34,6 +36,7 @@ export default function Home() {
 
         <div className="w-4/5 xl:w-[1080px] mx-auto ">
 
+
           <Link href="/shop">
             <button className="w-5/6 h-12 bg-orange-500 border mx-5 font-bold text-xl text-white rounded-lg hover:bg-orange-600 ">SHOP SAFETY & EQUIPMENT</button>
           </Link>
@@ -53,15 +56,15 @@ export default function Home() {
 
           <h1 className="mt-12 text-xl font-bold">We Do It All Scaffolding Services Include:</h1>
           <ul className="list-disc list-outside ms-8 text-left mx-auto max-w-2xl">
-            <li>Advanced System Scaffold: Tailored solutions for enhanced safety and efficiency.</li>              
-            <li>Expert Shoring/Re-shoring: Supporting your structures with precision and reliability.</li>
-            <li>Dynamic Dance Floors: Creating stability and versatility for various project needs.</li>
-            <li>Innovative Stair Towers: Elevating accessibility and safety on every level.</li>
-            <li>Stage Construction: Crafting platforms for your events or project requirements.</li>
-            <li>Secure Landing Platforms: Ensuring stability and safety at critical points.</li>
-            <li>Efficient Speedy Scaff: Rapid deployment for time-sensitive projects.</li>
-            <li>Public Access Solutions: Customized access solutions for public spaces.</li>
-            <li>Sidewalk Canopies: Blending safety with aesthetic appeal.</li>
+            <li>Advanced System Scaffold</li>              
+            <li>Expert Shoring/Re-shoring</li>
+            <li>Dynamic Dance Floors</li>
+            <li>Innovative Stair Towers</li>
+            <li>Stage Construction</li>
+            <li>Secure Landing Platforms</li>
+            <li>Efficient Speedy Scaff</li>
+            <li>Public Access Solutions</li>
+            <li>Sidewalk Canopies</li>
           </ul> 
           
         
