@@ -6,6 +6,7 @@ import NavBar from '../components/NavBar.js';
 import Link from 'next/link';
 import scaffold from "../public/WDIAscaffold.jpg";
 import scaffoldtwo from "../public/WDIAscaffold2.jpg";
+import scaffoldthree from "../public/WDIAscaffoldthree.jpg";
 import facebook from '../public/facebook-logo.jpg'; // Import the Facebook icon image
 
 
@@ -26,7 +27,7 @@ export default function Home() {
             <h1 className="text-5xl text-center text-secondary font-bold"> All Your Construction Needs In One Place </h1>
           </div>
 
-          <div className="items-center justify-center mt-12">
+          <div className="flex items-center justify-center mt-12">
             <Image src={scaffoldtwo} alt="Company Logo" width={1000} height={780} unoptimized={true} />
           </div>
 
@@ -38,16 +39,19 @@ export default function Home() {
 
 
           <Link href="/shop">
-            <button className="w-5/6 h-12 bg-orange-500 border mx-5 font-bold text-xl text-white rounded-lg hover:bg-orange-600 ">SHOP SAFETY & EQUIPMENT</button>
+            <button className="w-5/6 h-14 bg-orange-500 border mx-5 font-bold text-xl text-white rounded-lg hover:bg-orange-600 ">SHOP SAFETY & EQUIPMENT</button>
           </Link>
 
           <h1 className="mt-12 text-xl font-bold">Building Excellence for Over 25 Years</h1>
-          <p>"We Do It All," a distinguished over 25 years of unwavering commitment to construction excellence. Our rich legacy in the construction sector speaks to our steadfast dedication to safety, innovation, and customer satisfaction.</p>
+          <p>25 years of commitment to construction excellence. Our rich legacy in the construction sector speaks to our dedication to safety, innovation, and customer satisfaction.</p>
           
+          <div className="flex items-center justify-center mt-12">
+            <Image src={scaffold} alt="Companyimg" width={330} height={330} unoptimized={true} />
+          </div>
           
           <h1 className="mt-12 text-xl font-bold">Why Choose We Do It All?</h1>
 
-          <p>"We Do It All" stands as a beacon of progress in the scaffolding industry, driven by a passion for transforming challenges into opportunities. As pioneers of next-generation scaffold services, we prioritize safety by introducing innovative products that minimize risks and optimize efficiency. Our holistic approach ensures your project is not just built—it's elevated to new heights of success.</p>
+          <p>We prioritize safety, efficiency, and quality craftsmanship, ensuring a seamless and secure construction environment for your project's needs. Our experienced team is committed to delivering reliable and optimal scaffolding solutions tailored to your specific requirements.</p>
 
           <h1 className="mt-12 text-xl font-bold">Our Commitment to You:</h1>
 
@@ -55,20 +59,22 @@ export default function Home() {
 
 
           <h1 className="mt-12 text-xl font-bold">We Do It All Scaffolding Services Include:</h1>
-          <ul className="list-disc list-outside ms-8 text-left mx-auto max-w-2xl">
+          <ul className="list-disc list-inside ms-8 text-justify mx-auto">
             <li>Advanced System Scaffold</li>              
             <li>Expert Shoring/Re-shoring</li>
             <li>Dynamic Dance Floors</li>
-            <li>Innovative Stair Towers</li>
+            <li>Stair Towers</li>
             <li>Stage Construction</li>
             <li>Secure Landing Platforms</li>
-            <li>Efficient Speedy Scaff</li>
             <li>Public Access Solutions</li>
             <li>Sidewalk Canopies</li>
           </ul> 
           
+          <div className="flex items-center justify-center mt-12">
+            <Image src={scaffoldthree} alt="Companyimg" width={330} height={330} unoptimized={true} />
+          </div>
         
-          <h1 className="mt-12 text-xl">Choose "We Do It All" for a scaffolding partner that goes beyond industry standards, offering you a solid foundation for success in every construction endeavor. With "We Do It All," your projects are not just built; they're elevated to perfection.</h1>
+          <h1 className="mt-12 text-xl">Choose "We Do It All" for a scaffolding partner that goes beyond industry standards, offering you a solid foundation for success in every construction project. With "We Do It All," your projects are not just built; they're elevated to perfection.</h1>
         </div>
 
 
