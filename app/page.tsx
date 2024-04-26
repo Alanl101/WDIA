@@ -43,9 +43,7 @@ export default function Home() {
           </Link>
 
           <h1 className="mt-12 text-2xl font-bold">Building Excellence for Over 25 Years</h1>
-          <p className="font-semibold">
-            <span className=" bg-orange-400 "> 25 years of commitment to construction excellence.</span>{" "} Our rich legacy in the construction sector speaks to our dedication to safety, innovation, and customer satisfaction.
-          </p>          
+          <p className="font-semibold"> Our rich legacy in the construction sector speaks to our dedication to safety, innovation, and customer satisfaction.</p>          
 
           <div className="flex items-center justify-center mt-12">
             <Image src={scaffold} alt="Companyimg" width={330} height={330} unoptimized={true} />
@@ -53,7 +51,7 @@ export default function Home() {
           
           <h1 className="mt-12 text-2xl font-bold">Why Choose We Do It All?</h1>
 
-          <p className="font-semibold">We prioritize safety, efficiency, and quality craftsmanship, ensuring a seamless and secure construction environment for your project's needs. Our experienced team is committed to delivering reliable and optimal scaffolding solutions tailored to your specific requirements.</p>
+          <p className="font-semibold"> <span className=" bg-orange-400">We prioritize safety, efficiency, and quality craftsmanship,</span> ensuring a seamless and secure construction environment for your project's needs. Our experienced team is committed to delivering reliable and optimal scaffolding solutions tailored to your specific requirements.</p>
 
           <h1 className="mt-12 text-2xl font-bold">Our Commitment to You</h1>
 
@@ -61,7 +59,7 @@ export default function Home() {
 
 
           <h1 className="mt-12 text-2xl font-bold">We Do It All Scaffolding Services Include</h1>
-          <ul className="list-disc list-inside ms-8 text-justify mx-auto font-semibold ">
+          <ul className="list-disc list-inside ms-8 text-justify mx-auto font-semibold">
             <li>Advanced System Scaffold</li>              
             <li>Expert Shoring/Re-shoring</li>
             <li>Dynamic Dance Floors</li>
